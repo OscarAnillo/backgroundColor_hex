@@ -1,3 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+}
+div {
+  height: inherit;
+  position: relative;
+}
+.inner-div {
+  height: 15vh;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.inner-div h1 {
+  padding: 1em 0;
+}
+.inner-div button {
+  border: none;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  padding: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
 }
